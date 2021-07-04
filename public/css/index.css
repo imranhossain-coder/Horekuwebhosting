@@ -256,3 +256,14 @@ sup{
     color: #009ad8;
     background-color: white;
 }
+.col-md-6.col-12.main_header_left {
+    margin: 0;
+}
+
+.col-md-6.col-12.main_header_left a {
+    margin-bottom: 70px;
+}
+
+div#carouselExampleControls {
+    margin-bottom: 80px;
+}

@@ -77,13 +77,20 @@ const getcurrenttime = () => {
     "Nov",
     "Dec",
   ];
-  let month = months[now.getMonth() + 1];
-  let day = now.getDay();
+  let month = months[now.getMonth()];
+
+  console.log(month)
+  let day = now.getDate();
+  // console.log(day)
   return `${day} ${month}`;
 };
+
+// console.log(getcurrentday())
 
 const CurrentDay = getcurrentday();
 const CurrentMonth = getcurrenttime();
 
 Curday.innerHTML = CurrentDay;
 CurMonth.innerHTML = CurrentMonth;
+
+// console.log(new Date().getDate());
